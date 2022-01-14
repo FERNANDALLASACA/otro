@@ -1,0 +1,16 @@
+<h1>{{titulo}}</h1>
+<ul>
+    <li>Hola</li>
+    <li>Hola</li>
+</ul>
+Padre:
+<h1>{{titulo}}</h1>
+<ul>
+    <li>camisa</li>
+    <li>gorra</li>
+</ul>
+<hr>
+<input type="text" [(ngModel)]="nombreDelParque" (keyup)="mostrarNombre()"> 
+
+Hijo:
+<app-parques></app-parques>
